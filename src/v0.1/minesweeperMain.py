@@ -116,3 +116,4 @@ if __name__ == '__main__':
             if result[j][i] > a_bValue:
                 a, b, a_bValue = j, i, result[j][i]
     print('无雷概率最大位置为第{}行第{}列：{}'.format(a + 1, b + 1, a_bValue))
+    # 2018年5月27日19:17:20
